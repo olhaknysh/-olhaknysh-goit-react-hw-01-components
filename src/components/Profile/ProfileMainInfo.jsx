@@ -1,19 +1,24 @@
 import PropTypes from 'prop-types';
+import { Fragment } from 'react';
 
-const ProfileMainInfo = ({ text, type }) => {
-  return type === 'tag' ? (
-    <p className={text}>@{text}</p>
-  ) : (
-    <p className={text}>{text}</p>
+const ProfileMainInfo = ({ name, tag, location }) => {
+  return (
+    <Fragment>
+      <p className="name">{name}</p>
+      <p className="tag">@{tag}</p>
+      <p className="location">{location}</p>
+    </Fragment>
   );
 };
 
 ProfileMainInfo.defaultProps = {
-  type: 'text',
+  name: 'Unknown user',
 };
 
 ProfileMainInfo.propTypes = {
-  text: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string,
+  location: PropTypes.string,
 };
 
 export default ProfileMainInfo;

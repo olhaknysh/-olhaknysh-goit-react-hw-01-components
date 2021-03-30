@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
 
 import StaticticsList from './StaticticsList';
+import styles from './Statictics.module.scss';
 
 const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+    <section className={styles.statictics}>
+      {title && <h2 className={styles.title}>{title}</h2>}
       <StaticticsList stats={stats} />
     </section>
   );

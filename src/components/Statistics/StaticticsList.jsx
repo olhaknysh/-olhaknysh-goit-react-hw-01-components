@@ -1,10 +1,16 @@
 import StaticticsListItem from './StaticticsListItem';
 
+import styles from './StaticticsList.module.scss';
+
 const StaticticsList = ({ stats }) => {
   return (
-    <ul className="stat-list">
-      {stats.map(({ id, label, percentage }) => (
-        <li key={id} className="item">
+    <ul className={styles.statlist}>
+      {stats.map(({ id, label, percentage, color }) => (
+        <li
+          key={id}
+          className={styles.statListItem}
+          style={{ backgroundColor: color }}
+        >
           <StaticticsListItem label={label} percentage={percentage} />
         </li>
       ))}

@@ -1,11 +1,13 @@
 import { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
+import styles from './StaticticsListItem.module.scss';
+
 const StaticticsListItem = ({ label, percentage }) => {
   return (
     <Fragment>
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
+      <span className={styles.label}>{label}</span>
+      <span className={styles.percentage}>{percentage} %</span>
     </Fragment>
   );
 };

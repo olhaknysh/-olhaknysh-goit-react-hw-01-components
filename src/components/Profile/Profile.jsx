@@ -1,9 +1,10 @@
 import ProfileDescription from './ProfileDescription';
 import ProfileStats from './ProfileStats';
+import styles from './profile.module.scss';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
   return (
-    <div className="profile">
+    <div className={styles.profile}>
       <ProfileDescription
         avatar={avatar}
         tag={tag}

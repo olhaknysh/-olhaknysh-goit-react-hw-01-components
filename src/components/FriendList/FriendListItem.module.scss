@@ -1,0 +1,35 @@
+.image {
+  margin-left: 10px;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.online::before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: 35%;
+
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offline::before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: 35%;
+
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: maroon;
+}
