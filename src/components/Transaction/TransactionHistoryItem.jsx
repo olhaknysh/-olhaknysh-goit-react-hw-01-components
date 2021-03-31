@@ -1,13 +1,12 @@
-import { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 const TransactionHistoryItem = ({ type, amount, currency }) => {
   return (
-    <Fragment>
+    <tr>
       <td>{type}</td>
       <td>{amount}</td>
       <td>{currency}</td>
-    </Fragment>
+    </tr>
   );
 };
 

@@ -6,13 +6,12 @@ const StaticticsList = ({ stats }) => {
   return (
     <ul className={styles.statlist}>
       {stats.map(({ id, label, percentage, color }) => (
-        <li
+        <StaticticsListItem
           key={id}
-          className={styles.statListItem}
-          style={{ backgroundColor: color }}
-        >
-          <StaticticsListItem label={label} percentage={percentage} />
-        </li>
+          label={label}
+          percentage={percentage}
+          color={color}
+        />
       ))}
     </ul>
   );

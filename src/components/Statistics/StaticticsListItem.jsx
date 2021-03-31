@@ -1,14 +1,13 @@
-import { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 import styles from './StaticticsListItem.module.scss';
 
-const StaticticsListItem = ({ label, percentage }) => {
+const StaticticsListItem = ({ label, percentage, color }) => {
   return (
-    <Fragment>
+    <li className={styles.statListItem} style={{ backgroundColor: color }}>
       <span className={styles.label}>{label}</span>
       <span className={styles.percentage}>{percentage} %</span>
-    </Fragment>
+    </li>
   );
 };
 

@@ -9,20 +9,3 @@
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
   }
 }
-
-.item {
-  position: relative;
-
-  padding: 10px;
-  display: flex;
-  border-radius: 3px;
-
-  &:hover {
-    cursor: pointer;
-    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
-  }
-}
-
-.item:not(:last-child) {
-  margin-bottom: 15px;
-}
