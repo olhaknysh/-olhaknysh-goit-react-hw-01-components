@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/-olhaknysh-goit-react-hw-01-components/static/css/main.ed6d1696.chunk.css",
-    "main.js": "/-olhaknysh-goit-react-hw-01-components/static/js/main.00add73a.chunk.js",
-    "main.js.map": "/-olhaknysh-goit-react-hw-01-components/static/js/main.00add73a.chunk.js.map",
+    "main.css": "/-olhaknysh-goit-react-hw-01-components/static/css/main.c0cde388.chunk.css",
+    "main.js": "/-olhaknysh-goit-react-hw-01-components/static/js/main.874e4efb.chunk.js",
+    "main.js.map": "/-olhaknysh-goit-react-hw-01-components/static/js/main.874e4efb.chunk.js.map",
     "runtime-main.js": "/-olhaknysh-goit-react-hw-01-components/static/js/runtime-main.cc9b172a.js",
     "runtime-main.js.map": "/-olhaknysh-goit-react-hw-01-components/static/js/runtime-main.cc9b172a.js.map",
     "static/css/2.de71bbd8.chunk.css": "/-olhaknysh-goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css",
-    "static/js/2.26c54938.chunk.js": "/-olhaknysh-goit-react-hw-01-components/static/js/2.26c54938.chunk.js",
-    "static/js/2.26c54938.chunk.js.map": "/-olhaknysh-goit-react-hw-01-components/static/js/2.26c54938.chunk.js.map",
+    "static/js/2.cbc4e414.chunk.js": "/-olhaknysh-goit-react-hw-01-components/static/js/2.cbc4e414.chunk.js",
+    "static/js/2.cbc4e414.chunk.js.map": "/-olhaknysh-goit-react-hw-01-components/static/js/2.cbc4e414.chunk.js.map",
     "index.html": "/-olhaknysh-goit-react-hw-01-components/index.html",
     "static/css/2.de71bbd8.chunk.css.map": "/-olhaknysh-goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css.map",
-    "static/css/main.ed6d1696.chunk.css.map": "/-olhaknysh-goit-react-hw-01-components/static/css/main.ed6d1696.chunk.css.map",
-    "static/js/2.26c54938.chunk.js.LICENSE.txt": "/-olhaknysh-goit-react-hw-01-components/static/js/2.26c54938.chunk.js.LICENSE.txt",
+    "static/css/main.c0cde388.chunk.css.map": "/-olhaknysh-goit-react-hw-01-components/static/css/main.c0cde388.chunk.css.map",
+    "static/js/2.cbc4e414.chunk.js.LICENSE.txt": "/-olhaknysh-goit-react-hw-01-components/static/js/2.cbc4e414.chunk.js.LICENSE.txt",
     "static/media/no-image-available.e1ce751e.jpeg": "/-olhaknysh-goit-react-hw-01-components/static/media/no-image-available.e1ce751e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc9b172a.js",
     "static/css/2.de71bbd8.chunk.css",
-    "static/js/2.26c54938.chunk.js",
-    "static/css/main.ed6d1696.chunk.css",
-    "static/js/main.00add73a.chunk.js"
+    "static/js/2.cbc4e414.chunk.js",
+    "static/css/main.c0cde388.chunk.css",
+    "static/js/main.874e4efb.chunk.js"
   ]
 }
